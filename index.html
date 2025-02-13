@@ -14,9 +14,17 @@
     <header>
       <div class="container">
         <nav class="nav">
-          <section class="nav__logo"></section>
+          <section class="nav__logo">
+            <img
+              src="./images/logoes/FoodLogo.svg"
+              alt="Food Hunt"
+              class="nav__logo--img"
+            />
+          </section>
+
           <section class="nav__menu">
-            <div class="menu__wrapper">
+            <div class="toggle-icon" id="toggleIcon">☰</div>
+            <div class="menu__wrapper" id="menu__wrapper">
               <ul class="menu">
                 <li class="menu__item">
                   <a href="#" class="menu__link">Today special offers</a>
@@ -35,7 +43,58 @@
             <button class="nav__button button">Downlode App</button>
           </section>
         </nav>
+        <div class="hero">
+          <div class="hero__content">
+            <div class="ppl__like">
+              <div class="ppl__like__icon">
+                <img src="./images/logoes/heart.svg" alt="" />
+              </div>
+              <span class="ppl__text">People Trust us</span>
+            </div>
+            <h2 class="hero__title">
+              We're <span class="title__red">Serious</span> For
+              <span class="title__red">Food</span> &
+              <span class="title__yellow">Delivery</span>.
+            </h2>
+            <p class="hero__cation">
+              Best cooks and best delivery guys all at your service. Hot tasty
+              food will reach you in 60 minutes.
+            </p>
+            <div class="hero__searchbox">
+              <div class="searchbox__input">
+                <img
+                  src="./images/logoes/bx_bx-search.svg"
+                  alt=""
+                  class="hero__searchbox__icon"
+                />
+                <input type="text" placeholder="Search food" />
+              </div>
+              <div class="search__submit">
+                <a href="#">
+                  <img src="./images/logoes/search submit.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="hero__links">
+              <button class="button hero__button">Download App</button>
+              <div class="hero__video">
+                <div class="video__player">
+                  <img src="./images/logoes/Play button.svg" alt="" />
+                </div>
+                <span class="video__player__text">Watch Video</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__avatar">
+            <img
+              src="./images/logoes/hero img.png"
+              alt=""
+              class="hero__avatar__img"
+            />
+          </div>
+        </div>
       </div>
     </header>
+    <script src="./script.js"></script>
   </body>
 </html>
