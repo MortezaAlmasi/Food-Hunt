@@ -83,7 +83,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("Sofia Pro SemiBold"),
-    url("Sofia Pro Semi Bold Az.woff") format("woff");
+    url("../fonts/Sofia\ Pro\ Semi\ Bold\ Az.woff`") format("woff");
 }
 
 @font-face {
@@ -98,7 +98,8 @@
   font-family: "Sofia Pro Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Sofia Pro Bold"), url("Sofia Pro Bold Az.woff") format("woff");
+  src: local("Sofia Pro Bold"),
+    url("../fonts/Sofia\ Pro\ Bold\ Az.woff") format("woff");
 }
 
 @font-face {

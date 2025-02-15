@@ -9,8 +9,8 @@
     gap: 30px;
   }
   .hero__avatar {
-    width: 500px;
-    height: 500px;
+    width: 529px;
+    height: 480px;
   }
 }
 
@@ -22,8 +22,8 @@
     gap: 10px;
   }
   .hero__avatar {
-    width: 300px;
-    height: 300px;
+    width: 429px;
+    height: 380px;
   }
 }
 @media (max-width: 930px) {
@@ -33,14 +33,25 @@
   .nav__button {
     display: none;
   }
-  .hero {
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-  }
+
   .hero__content {
     align-self: flex-start;
+  }
+  .container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .hero__title {
+    font-size: 4.8rem;
+  }
+  .hero__cation {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 865px) {
+  .hero__avatar {
+    width: 379px;
+    height: 330px;
   }
 }
 
@@ -68,6 +79,28 @@
     margin: 5px 0;
     text-align: center;
   }
+  .hero__avatar {
+    width: 319px;
+    height: 270px;
+  }
+  .hero__title {
+    font-size: 3.8rem;
+  }
+  .hero__cation {
+    font-size: 1.8rem;
+  }
+  .title__yellow::after {
+    width: 200px;
+    height: 5px;
+    top: 60px;
+    left: -20px;
+  }
+}
+@media (max-width: 700px) {
+  .hero__avatar {
+    width: 259px;
+    height: 210px;
+  }
 }
 @media (max-width: 576px) {
   .nav__logo {
@@ -78,14 +111,17 @@
   .video__player__text {
     font-size: 16px;
   }
-  .hero__title {
-    font-size: 4.8rem;
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
   }
-  .hero__cation {
-    font-size: 2rem;
+  .hero__avatar {
+    align-self: center;
+    width: 299px;
+    height: 270px;
   }
-  .container {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-  }
+}
+@media (max-width: 480px) {
 }
