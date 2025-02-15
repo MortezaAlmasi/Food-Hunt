@@ -18,7 +18,7 @@
 */
 .button {
   font-size: 1.8rem;
-  font-family: var(--sofia-regular);
+  font-family: "Sofia Pro Regular";
   background-color: var(--red);
   color: var(--white);
   border: none;
@@ -61,7 +61,7 @@ nav {
 
 .nav {
   font-size: 1.8rem;
-  font-family: var(--sofia-regular);
+  font-family: "Sofia Pro Regular";
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,7 +171,7 @@ nav {
 }
 .hero__cation {
   max-width: 400px;
-  font-family: var(--sofia-regular);
+  font-family: "Sofia Pro Regular";
   font-size: 2.4rem;
   color: rgba(25, 25, 25, 0.8);
   margin-bottom: 50px;
@@ -200,7 +200,7 @@ nav {
   height: 100%;
   background-color: inherit;
   border: none;
-  font-family: var(--sofia-regular);
+  font-family: "Sofia Pro Regular";
   font-size: 1.8rem;
 }
 .searchbox__input input:focus {
@@ -241,7 +241,7 @@ nav {
 }
 .video__player__text {
   font-size: 1.7rem;
-  font-family: var(--sofia-regular);
+  font-family: "Sofia Pro Regular";
   color: rgba(104, 109, 119, 1);
 }
 
@@ -272,7 +272,7 @@ nav {
 }
 
 .offer__title {
-  font-family: var(--sofia-bold);
+  font-family: "Sofia Pro Bold";
   font-size: 4.8rem;
   color: var(--black);
   text-align: center;
@@ -281,7 +281,7 @@ nav {
 
 .offer__caption {
   font-size: 1.8rem;
-  font-family: var(--sofia-regular);
+  font-family: "Sofia Pro Regular";
   opacity: 80%;
   color: var(--black);
   margin-bottom: 25rem;
@@ -380,7 +380,7 @@ nav {
 .vote__rate {
 }
 .offer__item__title {
-  font-family: var(--sofia-semi-bold);
+  font-family: "Sofia Pro SemiBold";
   font-size: 2.4rem;
   color: var(--red);
   margin-bottom: 12.5px;
@@ -388,7 +388,7 @@ nav {
 .offer__item__caption {
   max-width: 200px;
   font-size: 1.6rem;
-  font-family: var(--sofia-regular);
+  font-family: "Sofia Pro Regular";
   opacity: 80%;
   text-align: center;
   margin-bottom: 50px;
@@ -397,7 +397,7 @@ nav {
   position: absolute;
   text-decoration: none;
   font-size: 1.8rem;
-  font-family: var(--sofia-regular);
+  font-family: "Sofia Pro Regular";
   color: var(--white);
   background-color: var(--red);
   width: 130px;
