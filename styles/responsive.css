@@ -122,6 +122,12 @@
     width: 299px;
     height: 270px;
   }
+  header {
+    padding-bottom: 9rem;
+  }
+  .nav {
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 480px) {
 }
