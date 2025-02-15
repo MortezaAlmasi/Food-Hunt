@@ -288,15 +288,14 @@ nav {
   text-align: center;
   max-width: 80rem;
   text-align: center;
-  
+
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .offer__items {
   display: flex;
- 
+
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
@@ -315,7 +314,6 @@ nav {
   margin-top: 50px;
   margin-bottom: 220px;
   position: relative;
-  ma
 }
 .offer__img__wrapper {
   width: 20rem;
